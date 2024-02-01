@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+.header-top {
+  background-color: orange;
+  margin: 0;
+  padding: 20px;
+  height: 8vh;
+}
+.header-bottom {
+  background-color: orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+.quantity {
+  padding: 5.5px 15px;
+  border-radius: 20px;
+  margin: 5px;
+  background-color: #e6e66e;
+}
+.description {
+  padding: 6px 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #e6e66e;
+}
+.add-btn {
+  background-color: darkseagreen;
+  border: none;
+  padding: 6px 15px;
+  border-radius: 20px;
+  margin: 5px;
+}
+.itemList-section {
+  background-color: #5c2b08;
+  height: 60vh;
+}
+.item-list {
+  margin: 0;
+  list-style: none;
+  text-align: left;
+  padding: 20px 50px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.item-checkbox {
+  accent-color: #e5771f;
+}
+.delete-btn {
+  background: none;
+  border: none;
+}
+.item {
+  flex: 30%;
+}
+.stats {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 14.7vh;
+}
+.sort,
+.sort:focus-visible {
+  padding: 6px 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #e6e66e;
+  outline: none;
+  position: absolute;
+  left: 40%;
+  bottom: 7rem;
+}
+.clear-items {
+  padding: 6px 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: red;
+  color: white;
+  outline: none;
+  position: absolute;
+  right: 37.5%;
+  bottom: 7rem;
+}
